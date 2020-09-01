@@ -106,7 +106,7 @@ for(i in 1:1000){
 
 	char.dis.count <- c(char.dis.count,count.temp);
 }
-#to should the number of certain sympatric taxa evolving distinct phenotypic states
+#to show the numbers/counts of sympatric taxa evolving distinct phenotypic states
 cat(c('the number of BE and XB evolving distinct phenotypes is', BEXBcount));
 cat(c('the number of XWIK and BO evolving distinct phenotypes is', XWBOcount));
 cat(c('the number of G and XIN evolving distinct phenotypes is', GIcount));
